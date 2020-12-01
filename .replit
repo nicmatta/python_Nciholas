@@ -1,2 +1,2 @@
-language = "bash"
-run = "python projetNicholasMatta/projet.py"
+language = "python3"
+run = "python imput/rations_nic.py"
