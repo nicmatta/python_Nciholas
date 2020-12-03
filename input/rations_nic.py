@@ -1,4 +1,7 @@
-# Nicholas Matta exemple de utilisation de Imput Le 30 novembre 2020
+# Programmer par:Nicholas Matta 
+# exemple de utilisation de Imput et elif
+# Le 30 novembre 2020
+#adress couriel:matnic02@ecolecatholique.ca
 score=100 
 print('Quel est votre nom?')
 name=input()
