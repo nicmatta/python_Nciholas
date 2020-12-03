@@ -1,2 +1,2 @@
 language = "python3"
-run = "python imput/rations_nic.py"
+run = "python input/rations_nic.py"
