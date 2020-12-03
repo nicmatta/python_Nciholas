@@ -5,7 +5,7 @@ name=input()
 print("Bonjour",name,"vous devrez choisir une porte et essayer de   rester au-dessus de 100 points bonne chance")
 print('')
 print('veuillez choisir une porte') 
-print('1 2 3 ou mystère?')
+print('1, 2, 3, ou mystère?')
 choix=input().lower()
 if choix=='1':
   print(score + 50, 'Bravo tu a rester au-dessus 100 point vous gagnes')
