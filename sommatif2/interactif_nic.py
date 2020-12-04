@@ -24,6 +24,7 @@ print("")
 print("Le premier ministre du Canada te offre du alchool")
 print("")
 print("Est-ce A tu accept, B did non merci, ou C déclare la guerre")
+print("")
 if choix=='A':
     print("Tu devien malade est vomir sur le premier ministre. Fâcher il déclare guerre")
 elif choix=='B':
@@ -37,6 +38,7 @@ print("")
 print("President",name,"les canadiens veux arreter la guerre est retourner des ami")
 print("")
 print("Est-ce que tu A accepte ou B laucher des missile nucléaire")
+print("")
 if choix=='A':
     print("Le gurre arrêté est tout mond commence a chanter est dancer dans les rue")
 elif choix=='B':
