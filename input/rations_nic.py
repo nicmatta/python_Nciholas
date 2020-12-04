@@ -5,7 +5,7 @@
 score=100 
 print('Quel est votre nom?')
 name=input()
-print("Bonjour",name,"vous devrez choisir une porte et essayer de   rester au-dessus de 100 points bonne chance")
+print("Bonjour",name,"vous devrez choisir une porte et essayer de  rester au-dessus de 100 points bonne chance")
 print('')
 print('veuillez choisir une porte') 
 print('1, 2, 3, ou mystère?')

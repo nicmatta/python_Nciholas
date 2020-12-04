@@ -1,2 +1,2 @@
 language = "python3"
-run = "python input/rations_nic.py"
+run = "python sommatif2/interactif_nic.py"
