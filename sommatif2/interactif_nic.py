@@ -48,12 +48,13 @@ elif choix=='B':
     print("Les missile détruit le Canada est le meilleur équipe de hockey les Sénateur sont tuer")
 print("")
 print("")
+#je donne le variable 'popularité' un valeur 
 popularité=70
 print("président",name,"le guerre a causer que l'économie descendre est ta popularité est just 70% si ca descend de moin que 50% tu sera plue président. Ont a just deux options A de élever les taxes ou B emprunter du argen des bank. Quel plan veux tu faire?")
 choix=input()
 if choix=='A':
   print("président",name,"les citoyen so frustrer des taxe est ton popularité a descendu à ",popularité-30,"qui est trop petit pour étre président tu était assassiné par la population est mouru aux hopitale :(")
-if choix=='B':
+elif choix=='B':
   print("président",name,"les citoyen sont tellement conton que tu a relver le économie qui a causer que ton popularité a augementer a",popularité+30,"qui fait que tu vas rester presiden pour tout ta vie :)")
 print("")
 print("game over")
