@@ -28,3 +28,13 @@ while christmas:
     elif choix=="quit":
         christmas=False 
         print("ok joyeux noël")
+my_list = [] 
+my_list.append(574) 
+my_list.append('joyeuse,noel')
+print(my_list) 
+print(my_list[0]) 
+print(my_list[0]) 
+print(len(my_list)) 
+for element in my_list:
+    element *= 4
+    print(element)

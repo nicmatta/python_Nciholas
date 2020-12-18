@@ -1,2 +1,2 @@
 language = "python3"
-run = "python sommatif2/interactif_nic.py"
+run = "python Listes/cumulatif.py"
