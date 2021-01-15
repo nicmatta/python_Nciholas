@@ -1,7 +1,7 @@
 import pgzrun
 WIDTH  = 500	
 HEIGH = 300
-alien = Actor("alien.png")
+alien = Actor("rotation-bad3.gif")
 speed = 0
 def draw():	
     screen.fill("blue")	    
