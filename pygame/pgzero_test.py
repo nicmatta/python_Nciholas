@@ -2,11 +2,14 @@ import pgzrun
 WIDTH  = 500	
 HEIGH = 300
 alien = Actor("alien.png")
-speed = 1
+speed = 0
 def draw():	
-    """ Tout ce qu'on veut voir dans notre fenêtre"""
     screen.fill("blue")	    
     alien.draw()
 def update():
     alien.x = alien.x + speed
-pgzrun.go() 
+def on_mouse_move(pos):
+    global p_text, a_text
+    p_text = "Position: " + str(pos)
+    alien.angle = alien.angle_to(pos)
+    a_text = "Angle: " + str(round(alien.angle))
