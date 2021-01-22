@@ -1,23 +1,21 @@
 import pgzrun
 import random
-import sys
 WIDTH, HEIGHT = 600, 280
 monnaie = Actor("dollar.png")
 vaisseau = Actor("startup.png")
 score=0
 monnaie.speed = 1.5
 game_over = False
-def reset_faster():
+def reset():
     monnaie.speed += 0
     monnaie.x = 0
     monnaie.y = random.randint(0, HEIGHT - monnaie.height)
 def draw():
   screen.clear()
-  screen.draw.text("Score: " + str(score), midtop = (WIDTH / 2, 5), fontsize = 40)
+  screen.draw.text("point: " + str(score), midtop = (WIDTH / 2, 5), fontsize = 40)
   if (not game_over):
     monnaie.draw()
     vaisseau.draw() 
-
   else:
     screen.draw.text("Game Over", center = (WIDTH / 2,HEIGHT / 2), fontsize = 40)
 def update():
@@ -28,7 +26,7 @@ def update():
         game_over = True
     if (vaisseau.colliderect(monnaie)):
         score += 1
-        reset_faster()
+        reset()
 def on_mouse_move(pos):
     vaisseau.pos = pos
 pgzrun.go() 
