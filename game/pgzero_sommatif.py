@@ -1,9 +1,9 @@
 import pgzrun
 import random
-WIDTH, HEIGHT = 600, 280
+WIDTH, HEIGHT = 600, 270
 monnaie = Actor("dollar.png")
-vaisseau = Actor("startup.png")
-roche = Actor("rock.png")
+vaisseau = Actor("startup.png",)
+roche = Actor("rock (1).png")
 score=0
 monnaie.speed = 1.5
 roche.speed = 1
@@ -35,7 +35,7 @@ def update():
         score += 1
         reset()
     if (vaisseau.colliderect(roche)):
-      score -= 5
+      score -= 2
       reset()
 def on_mouse_move(pos):
     vaisseau.pos = pos
