@@ -1,6 +1,6 @@
 import pgzrun
 import random
-WIDTH, HEIGHT = 600, 270
+WIDTH, HEIGHT = 600, 260
 monnaie = Actor("dollar.png")
 vaisseau = Actor("startup.png",)
 roche = Actor("rock (1).png")
@@ -16,7 +16,7 @@ def reset():
    monnaie.x = 0
    monnaie.y = random.randint(0, HEIGHT - monnaie.height)
 def draw():
-  screen.clear()
+  screen.blit("bg",(0,0))
   screen.draw.text("point: " + str(score), midtop = (WIDTH / 2, 5), fontsize = 40)
   if (not game_over):
     monnaie.draw()
