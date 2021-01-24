@@ -1,7 +1,7 @@
 import pgzrun
 # je métre les dimision du fenatre 
 WIDTH  = 700
-HEIGH = 500
+HEIGHT = 500
 # indentifi les actor
 alien = Actor("alien.png")
 dog = Actor("2alien.png")
